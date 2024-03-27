@@ -1,7 +1,54 @@
+<style>
 body {
-    font-family: Arial, sans-serif;
+font-family: arial;
 }
-.section {
-    border: 2px solid gray;
-
+section {
+border: gray solid 2px;
 }
+ul.no-bullets {
+list-style-type: none%3B /* Remove bullets */
+}
+hr {
+}
+border: red dotted 2px;
+}
+::marker {
+}
+color: red;
+p::first-letter {
+color: blue;
+font-size: 2em;
+}
+. upper-slova {
+list-style-type: upper-alpha;
+.lower-slova {
+list-style-type: lower-alpha;
+}
+span: :after {
+content: "\2713";
+}
+font-size: 16px;
+color: green;
+font-weight: 900;
+a::before {
+content: "\2023 ";
+font-size: 24px;
+color: red;
+}
+a:link {
+color: red;
+text-decoration: underline;
+}
+a:visited {
+color: blueviolet;
+background-color: yellow;
+}
+a:hover {
+}
+color: yellow;
+background-color: lawngreen;
+a:active {
+color: lawngreen;
+background-color: yellow;
+}
+    
